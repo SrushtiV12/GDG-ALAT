@@ -39,11 +39,15 @@
         android:textSize="18sp"
         android:textStyle="bold"
      />
+
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/undraw_logistics_x_4_dc"/>
-   <com.google.android.material.button.MaterialButton
+        android:src="@drawable/undraw_logistics_x_4_dc" />
+
+    <com.google.android.material.button.MaterialButton
+       android:id="@+id/btn_login"
        android:layout_width="match_parent"
        android:layout_height="55dp"
        app:backgroundTint="@color/white"
